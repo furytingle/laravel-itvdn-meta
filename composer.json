@@ -1,0 +1,27 @@
+{
+    "name": "zhylinskiy/meta",
+    "description": "This is for ITVDN video lessons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Zhylinskiy",
+            "email": "zhylinskiy.aleksandr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zhylinskiy\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhylinskiy\\Meta\\MetaServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "Zhylinskiy\\Meta\\Meta"
+            }
+        }
+    }
+}
